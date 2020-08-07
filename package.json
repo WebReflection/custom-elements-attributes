@@ -4,10 +4,14 @@
   "description": "A common customElements helper to observe attributes",
   "main": "./cjs/index.js",
   "scripts": {
-    "build": "npm run cjs && npm run test",
+    "build": "npm run cjs",
     "cjs": "ascjs --no-default esm cjs"
   },
-  "keywords": ["customElements", "attributes", "observer"],
+  "keywords": [
+    "customElements",
+    "attributes",
+    "observer"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
@@ -21,5 +25,13 @@
       "default": "./cjs/index.js"
     },
     "./package.json": "./package.json"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/custom-elements-attributes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/custom-elements-attributes/issues"
+  },
+  "homepage": "https://github.com/WebReflection/custom-elements-attributes#readme"
 }

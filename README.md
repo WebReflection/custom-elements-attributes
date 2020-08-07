@@ -2,5 +2,5 @@
 
 Used by:
 
-  * [custom-elements-no-builtin]()
-  * [custom-elements-no-builtin]()
+  * [@webreflection/custom-elements-no-builtin](https://github.com/WebReflection/custom-elements-no-builtin#readme)
+  * [@webreflection/custom-elements-builtin](https://github.com/WebReflection/custom-elements-builtin#readme)
