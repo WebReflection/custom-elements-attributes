@@ -1,4 +1,4 @@
-# A customElements helper to observe attributes
+# A [customElements](https://github.com/WebReflection/custom-elements#readme) helper to observe attributes
 
 Used by:
 
