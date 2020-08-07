@@ -1,4 +1,4 @@
-# A common customElements helper to observe attributes
+# A customElements helper to observe attributes
 
 Used by:
 
