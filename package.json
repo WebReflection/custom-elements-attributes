@@ -1,0 +1,25 @@
+{
+  "name": "@webreflection/custom-elements-attributes",
+  "version": "0.0.0",
+  "description": "A common customElements helper to observe attributes",
+  "main": "./cjs/index.js",
+  "scripts": {
+    "build": "npm run cjs && npm run test",
+    "cjs": "ascjs --no-default esm cjs"
+  },
+  "keywords": ["customElements", "attributes", "observer"],
+  "author": "Andrea Giammarchi",
+  "license": "ISC",
+  "devDependencies": {
+    "ascjs": "^4.0.1"
+  },
+  "module": "./esm/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "default": "./cjs/index.js"
+    },
+    "./package.json": "./package.json"
+  }
+}
