@@ -1,6 +1,6 @@
 {
   "name": "@webreflection/custom-elements-attributes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A customElements helper to observe attributes",
   "main": "./cjs/index.js",
   "scripts": {
