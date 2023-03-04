@@ -15,7 +15,7 @@
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
-    "ascjs": "^4.0.1"
+    "ascjs": "^5.0.1"
   },
   "module": "./esm/index.js",
   "type": "module",
